@@ -1,0 +1,27 @@
+# Git LFS installer (keep out of repo)
+git-lfs-windows*.exe
+
+# Raw photo originals at project root
+/*.jpeg
+/*.JPEG
+/*.jpg
+/*.png
+!assets/**
+
+# Raw photo originals — keep full-res files outside the repo
+/assets/IMG_*
+/assets/1.png
+/assets/2.png
+/assets/before.jpeg
+/assets/after.jpeg
+/assets/hero.jpeg
+/assets/123_1.JPEG
+/assets/Screenshot*
+
+# Temp / OS files
+*.tmp
+*.opt.jpg
+*.opt.png
+.DS_Store
+Thumbs.db
+desktop.ini
