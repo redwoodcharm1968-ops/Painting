@@ -1336,7 +1336,10 @@ body.header-scrolled .page-offset {
 
 .gallery-item img {
   width: 100%;
-  transition: transform 0.5s ease;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .gallery-item:hover img {
