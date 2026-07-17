@@ -23,6 +23,7 @@ git-lfs-windows*.exe
 /assets/hero.jpeg
 /assets/123_1.JPEG
 /assets/Screenshot*
+/Screenshot*
 
 # Temp / OS files
 *.tmp
