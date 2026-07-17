@@ -31,6 +31,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          lfs: false
+      - name: Verify site assets
+        run: |
+          test -f assets/logo.png
+          test -f assets/work/hero.jpg
+          ! head -c 20 assets/work/hero.jpg | grep -q "git-lfs"
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
