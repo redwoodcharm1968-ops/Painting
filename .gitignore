@@ -1,10 +1,16 @@
 # Git LFS installer (keep out of repo)
 git-lfs-windows*.exe
+*.exe
 
-# Raw photo originals at project root
+# Raw phone photos at project root — too large for GitHub; site uses assets/work/ instead
+/IMG_*.jpeg
+/IMG_*.jpg
+/IMG_*.JPEG
+/IMG_*.JPG
 /*.jpeg
 /*.JPEG
 /*.jpg
+/*.JPG
 /*.png
 !assets/**
 
